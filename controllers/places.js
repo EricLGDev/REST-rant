@@ -74,15 +74,6 @@ router.get('/:id/edit', (req, res) => {
   })
 })
 
-
-// router.post('/:id/rant', (req, res) => {
-//   res.send('GET /places/:id/rant stub')
-// })
-
-// router.delete('/:id/rant/:rantId', (req, res) => {
-//     res.send('GET /places/:id/rant/:rantId stub')
-// })
-
 router.post('/:id/comment', (req, res) => {
   console.log('post comment', req.body)
   if (req.body.author === '') { req.body.author = undefined }

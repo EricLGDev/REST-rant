@@ -98,11 +98,11 @@ function show (data) {
                   <label htmlFor="author">Author</label>
                   <input id="author" name="author" className="form-control" />
                 </div>
-                <div className="form-group col-sm-4">
+                <div className="form group col-sm-4">
                   <label htmlFor="stars">Star Rating</label>
-                  <input type="range" step="0.5" min="1" max="5" id="stars" name="stars" className="form-control" />
+                  <input type="range" step="0.5" min="1" max="5" id="stars" name="stars" className="" />
                 </div>
-                <div className="form-group">
+                <div className="form-group col-sm-4">
                   <label htmlFor="rant">Rant?</label>
                   <input type="checkbox" id="rant" name="rant" className="" />
                 </div>
